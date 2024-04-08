@@ -1,0 +1,41 @@
+criterionID;dimensionID;criterionName;criterionDescription
+A1;A;Conceptualization;
+A2;A;Data Preparation & Exploration;
+A3;A;Model Building and Evaluation;
+A4;A;Deployment and Monitoring;
+B1;B;Examples;Case studies, examples of best practices
+B2;B;Quick Read;Short, accessible, a quick-start type of guidance
+B3;B;Stakeholder Inclusivity;The toolkit addresses different types of stakeholders
+B4;B;Feasibility - Capabilities;The feasibility of applying the toolkit with respect to a typical SME skillset
+B5;B;Feasibility - Resources;The feasibility of applying the toolkit with respect to rsources such as workload, personnel, budget of SMEs
+B6;B;Recommendations of Techniques;The toolkit provides concrete recommendations for data management and machine learning methods
+B7;B;Recommendations of Training;The toolkit provides recommendations and personnel training
+B8;B;Evidence of Adoption;There is evidence of the toolkit beeing adopted by an SME
+C1;C;Development of dynamic capabilities;
+C2;C;Simple solutions;
+C3;C;Managerial capability development;
+C4;C;Access to financial resources;
+C5;C;Sharing of success stories;
+C6;C;Market regulation & Standards;
+C7;C;AI Strategy;
+C8;C;Innovation culture;
+C9;C;Data governance;
+C10;C;Ethical considerations;
+D1;D;Management suppport;
+D2;D;HRM;
+D3;D;R&D;
+D4;D;Inbound logistics;
+D5;D;Production;
+D6;D;Outbound logistics;
+D7;D;Marketing & Sales;
+D8;D;Customer support;
+D9;D;Security;
+E1;E;Lack of employee capabilities;
+E2;E;Lack of managerial capabilities;
+E3;E;Lack of operational resources;
+E4;E;Limited understanding of specific technologies;
+E5;E;Lack of a strategic approach;
+E6;E;Inability to acquire or develop needed technologies;
+E7;E;Lack of high quality, labelled data;
+E8;E;Lack of integrated data;
+E9;E;Lack of a clear ethical approach;
