@@ -1,5 +1,5 @@
 # SME-AI-Toolkit
-A practical toolkit to identify the support documents most applicable for AI adoption for the digital transformation of your organization.
+A practical toolkit to identify the support documents most applicable for AI adoption in your organization.
 
 This toolkit is comprised of:
 1.	A graph database  containing information on selected, evaluated support documents;
