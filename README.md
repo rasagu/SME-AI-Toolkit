@@ -2,7 +2,7 @@
 A practical toolkit to identify the support documents most applicable for AI adoption in your organization.
 
 This toolkit is comprised of:
-1.	A graph database  containing information on selected, evaluated support documents;
+1.	A graph database  containing information on selected, evaluated AI adoption support documents;
 2.	A corresponding knowledge graph;
 3.	Sample queries according to toolkit use scenarios;
 4.	A method for updating the toolkit.
