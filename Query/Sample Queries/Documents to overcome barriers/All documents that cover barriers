@@ -1,0 +1,3 @@
+MATCH a=(d:Dimension)--(:Criteria)-[:OVERCOME]-(:Criteria)-[r:CONSIDERS]-(:Document)
+WHERE d.Dimension='AI barriers' AND r.Score>=1
+RETURN a
