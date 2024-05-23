@@ -32,10 +32,6 @@ _If you're working in the desktop version_
 1.	Download the file _import.cypher_ from _Import_
 2.	Go to the **Import** section in your Neo4j instance
 3.	Click on **...** in the top right corner and upload the _Cypher_ code you just downloaded
-4.	Check the generated import specification and data model. It should look like this:
-    ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/c222e7fe-30ef-4933-8375-343a5875d90f)
-
-  	If correctly mapped and defined, all of the model elements (nodes and edges) should have green tickmarks next to them
 
 _If you're working in the browser version_
 1.	Download the file _AI_Knowledge_Graph_Import.zip_ from _Import_
@@ -44,12 +40,12 @@ _If you're working in the browser version_
 
   	![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/1df72ca7-5425-4dd9-b2de-36d19937a831)
   	
-5.	Upload the _.zip_ file you just downloaded
-6.	Check the generated import specification and data model. It should look like this:
+4.	Upload the _.zip_ file you just downloaded
+5.	Check the generated import specification and data model. It should look like this:
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/c222e7fe-30ef-4933-8375-343a5875d90f)
 
   	If correctly mapped and defined, all of the model elements (nodes and edges) should have green tickmarks next to them
-7.	Click **Run Import** in the top right corner.
+6.	Click **Run Import** in the top right corner.
 
 Once run successfully you are ready to explore AI adoption support documents!
 
