@@ -101,6 +101,7 @@ _To see which support document provide guidance on overcoming limited employee c
     1.  Copy the _Cypher_ code from _Query_
     2.  Paste in the top bar
     3.  Click the _Play_ button in the top right of the bar:
+
         ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/6cd65591-b676-42dd-aafe-d7e09cfab626)
 
     4.  Once run successfully, save the query by clicking on the _Bookmark_ icon on the top right corner of the bar:
