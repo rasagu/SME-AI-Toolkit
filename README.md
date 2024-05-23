@@ -45,7 +45,9 @@ Once the instance set-up is done, you can start seacrhing for appropriate AI ado
 ## Explore
 1.  Go to the **Explore** section in your Neo4j instance
 2.  Click **Perspective** icon on the top left corner to select categories you wish to see in your graph
+
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/919249db-a06d-47a9-b341-a71019b69b2f)
+    
 3.  Click on **+ Add category** in the **Perspective** pane. A dropdown menu should appear with 5 categories:
     1.  Criteria (criteria according to which support documents were evaluated)
     2.  Dimension (an aggregation of criteria, created as starting points for your search)
@@ -71,13 +73,16 @@ _To see which support document provide guidance on overcoming limited employee c
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/7f7136e3-3160-4cbe-b0cb-133aec1e6099)
 
 3.  Locate _Lack of employee capabilities_, right click. In the dropdown menu select **Expand**. Either expand a specific type of relationship (e.g. _OVERCOME_) or all relationships that a node has (_All_)
+
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/af585103-90d0-4de1-b74f-cd3c3bebb7d0)
 
     In this case, you should see that a _Lack of employee capabilities_ barrier can be overcome by either _Developing dynamic capabilities_, _Innovation culture_ or implementing _Simple solutions_.
 4.  To see which support documents cover _Simple solutions_ right click on the node. In the dropdown menu select **Expand**. Select _CONSIDERS_ to see which documents consider this.
+
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/96288e62-1470-496d-a44f-afa52db7beb2)
 
 5.  To read a specific support document of interest, right click on the document node. In the dropdown menu select **Inspect**. A pop-up window with the document link will appear.
+
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/7893ff6a-39b9-44bf-a791-de5e94eca063)
 
 ## Query
@@ -87,6 +92,7 @@ _To see which support document provide guidance on overcoming limited employee c
     2.  Click on the **Saved Cypher** icon (Bookmark) on the left side of the screen
     3.  At the top of the **Save Cypher** pane click on the *Upload* icon (Arrow pointing up)
     4.  Upload the _.csv_ file you just downloaded
+    
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/f9b4eb5a-add3-4712-9cf8-3d913bdd2655)
 
     _If you're working in the browser version_:
@@ -113,4 +119,5 @@ _To see which are the highest ranked support documents in the _Getting started_ 
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/f4de028e-d413-43a0-b11d-8afa3e3939b8)
 
 4.  To change the view of the results, select a view you prefer on the top left of the workspace
+
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/21e6cb7e-c445-40b6-8a09-a09ca25cb6a7)
