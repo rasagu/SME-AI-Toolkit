@@ -30,7 +30,7 @@ Once the instance set-up is done, you can start seacrhing for appropriate AI ado
 ## Import
 1.	Download the file _AI_Knowledge_Graph_Import.zip_ from _Import_
 2.	Go to the **Import** section in your Neo4j instance
-3.	Click on **...** in the top right corner and select _Open model (with data)_
+3.	Click on **...** in the top right corner and select _Open model (with data)_:
 
   	![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/1df72ca7-5425-4dd9-b2de-36d19937a831)
   	
@@ -44,7 +44,7 @@ Once the instance set-up is done, you can start seacrhing for appropriate AI ado
 
 ## Explore
 1.  Go to the **Explore** section in your Neo4j instance
-2.  Click **Perspective** icon on the top left corner to select categories you wish to see in your graph
+2.  Click **Perspective** icon on the top left corner to select categories you wish to see in your graph:
 
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/919249db-a06d-47a9-b341-a71019b69b2f)
     
@@ -54,25 +54,27 @@ Once the instance set-up is done, you can start seacrhing for appropriate AI ado
     3.  Document (selected and evaluated support documents in the form of AI adoption guidelines, frameworks, toolkits, approaches, methods and more)
     4.  Publisher (publishers of selected documents)
     5.  Type (document types of support documents, e.g. 'toolkit')
-4.  Click on each category and it should appear below in the **Perspective** and in the pane on the right side of the screen
+4.  Click on each category and it should appear below in the **Perspective** and in the pane on the right side of the screen:
+
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/9d83c32d-c30f-4ab0-b012-d4994ccc0b49)
 
-You are ready to start exploring! Select categories, specific nodes or relationships which you'd like to see in the search bar on the top left corner of the screen
+You are ready to start exploring! Select categories, specific nodes or relationships which you'd like to see in the search bar on the top left corner of the screen:
+
 ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/2efcf473-1133-4062-958b-1bd77501d32e)
 
-Click enter or the _Play_ button in the search bar and the corresponding nodes and relationships will appear on the workspace. Right click on a node or relationship and you will be able to:
+5.  Click enter or the _Play_ button in the search bar and the corresponding nodes and relationships will appear on the workspace. Right click on a node or relationship and you will be able to:
     1.  **Inspect** - see additional information about the node (e.g. support document links, year of publishing)
     2.  **Expand** - reveal connections to other nodes
  
 ### Example of Explore
 _To see which support document provide guidance on overcoming limited employee capabilities follow these steps:_
-1.  In the search bar select **Dimension value (equals): AI barriers** --*(any)*-- **Criteria**
+1.  In the search bar select **Dimension value (equals): AI barriers** --*(any)*-- **Criteria**:
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/c5053c4b-5b64-4fa0-a04e-071c053ccd9a)
 
 2.  The nodes will appear on the workspace. The graph should look like this:
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/7f7136e3-3160-4cbe-b0cb-133aec1e6099)
 
-3.  Locate _Lack of employee capabilities_, right click. In the dropdown menu select **Expand**. Either expand a specific type of relationship (e.g. _OVERCOME_) or all relationships that a node has (_All_)
+3.  Locate _Lack of employee capabilities_, right click. In the dropdown menu select **Expand**. Either expand a specific type of relationship (e.g. _OVERCOME_) or all relationships that a node has (_All_):
 
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/af585103-90d0-4de1-b74f-cd3c3bebb7d0)
 
@@ -91,33 +93,34 @@ _To see which support document provide guidance on overcoming limited employee c
     1.  Download the file _sample-queries.csv_ from _Query_
     2.  Click on the **Saved Cypher** icon (Bookmark) on the left side of the screen
     3.  At the top of the **Save Cypher** pane click on the *Upload* icon (Arrow pointing up)
-    4.  Upload the _.csv_ file you just downloaded
+    4.  Upload the _.csv_ file you just downloaded:
     
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/f9b4eb5a-add3-4712-9cf8-3d913bdd2655)
 
     _If you're working in the browser version_:
     1.  Copy the _Cypher_ code from _Query_
     2.  Paste in the top bar
-    3.  Click the _Play_ button in the top right of the bar
+    3.  Click the _Play_ button in the top right of the bar:
         ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/6cd65591-b676-42dd-aafe-d7e09cfab626)
 
-    4.  Once run successfully, save the query by clicking on the _Bookmark_ icon on the top right corner of the bar
+    4.  Once run successfully, save the query by clicking on the _Bookmark_ icon on the top right corner of the bar:
+    
         ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/796ffb68-e3ca-4aec-bb82-cbacd799284b)
 
 There are 5 search scenarios considered: _Getting started_, _Documents by AI adoption stage_, _Documents to overcome barriers_, _Documents by AI use case_, and _Documents by type_. Each scenario represents plausible document search requirements by SMEs.
 
 ### Example of Query
 _To see which are the highest ranked support documents in the _Getting started_ scenario_
-1.  Run the _Highest scores_ query either from **Stored Cypher** pane or by copying _Cypher_ code into the top bar
+1.  Run the _Highest scores_ query either from **Stored Cypher** pane or by copying _Cypher_ code into the top bar:
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/65487c38-690e-42a7-a70f-cc7c44c3e50b)
 
 2.  The nodes will appear on the workspace. The graph should look like this:
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/5b4ea934-6d6d-4c62-9752-bb10d93275c2)
 
     The query returns the result in a graph, tabular, and JSON code format. For _Highest scores_, the tabular format provides most information.
-3.  To inspect a specific support document, click on the document node. Node information will appear in the right pane
+3.  To inspect a specific support document, click on the document node. Node information will appear in the right pane:
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/f4de028e-d413-43a0-b11d-8afa3e3939b8)
 
-4.  To change the view of the results, select a view you prefer on the top left of the workspace
+4.  To change the view of the results, select a view you prefer on the top left of the workspace:
 
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/21e6cb7e-c445-40b6-8a09-a09ca25cb6a7)
