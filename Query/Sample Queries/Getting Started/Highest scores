@@ -1,0 +1,4 @@
+MATCH (Document:Document)-[s:CONSIDERS]-()
+WHERE s.Score>=1
+RETURN Document, sum(s.Score) AS Score
+ORDER BY Score desc LIMIT 5
