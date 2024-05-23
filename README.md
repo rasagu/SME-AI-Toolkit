@@ -79,11 +79,11 @@ _To see which support document provide guidance on overcoming limited employee c
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/af585103-90d0-4de1-b74f-cd3c3bebb7d0)
 
     In this case, you should see that a _Lack of employee capabilities_ barrier can be overcome by either _Developing dynamic capabilities_, _Innovation culture_ or implementing _Simple solutions_.
-4.  To see which support documents cover _Simple solutions_ right click on the node. In the dropdown menu select **Expand**. Select _CONSIDERS_ to see which documents consider this.
+4.  To see which support documents cover _Simple solutions_ right click on the node. In the dropdown menu select **Expand**. Select _CONSIDERS_ to see which documents consider this:
 
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/96288e62-1470-496d-a44f-afa52db7beb2)
 
-5.  To read a specific support document of interest, right click on the document node. In the dropdown menu select **Inspect**. A pop-up window with the document link will appear.
+5.  To read a specific support document of interest, right click on the document node. In the dropdown menu select **Inspect**. A pop-up window with the document link will appear:
 
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/7893ff6a-39b9-44bf-a791-de5e94eca063)
 
@@ -97,7 +97,7 @@ _To see which support document provide guidance on overcoming limited employee c
     
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/f9b4eb5a-add3-4712-9cf8-3d913bdd2655)
 
-    _If you're working in the browser version_:
+3.  _If you're working in the desktop version_:
     1.  Copy the _Cypher_ code from _Query_
     2.  Paste in the top bar
     3.  Click the _Play_ button in the top right of the bar:
