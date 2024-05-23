@@ -97,7 +97,7 @@ _To see which support document provide guidance on overcoming limited employee c
     
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/f9b4eb5a-add3-4712-9cf8-3d913bdd2655)
 
-3.  _If you're working in the desktop version_:
+    _If you're working in the desktop version_:
     1.  Copy the _Cypher_ code from _Query_
     2.  Paste in the top bar
     3.  Click the _Play_ button in the top right of the bar:
