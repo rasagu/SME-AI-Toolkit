@@ -28,6 +28,16 @@ Once the instance set-up is done, you can start seacrhing for appropriate AI ado
 **NB!** Sample queries using _.csv_ files can only be imported to the desktop version of Neo4j.
 
 ## Import
+_If you're working in the desktop version_
+1.	Download the file _import.cypher_ from _Import_
+2.	Go to the **Import** section in your Neo4j instance
+3.	Click on **...** in the top right corner and upload the _Cypher_ code you just downloaded
+4.	Check the generated import specification and data model. It should look like this:
+    ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/c222e7fe-30ef-4933-8375-343a5875d90f)
+
+  	If correctly mapped and defined, all of the model elements (nodes and edges) should have green tickmarks next to them
+
+_If you're working in the browser version_
 1.	Download the file _AI_Knowledge_Graph_Import.zip_ from _Import_
 2.	Go to the **Import** section in your Neo4j instance
 3.	Click on **...** in the top right corner and select _Open model (with data)_:
@@ -40,7 +50,8 @@ Once the instance set-up is done, you can start seacrhing for appropriate AI ado
 
   	If correctly mapped and defined, all of the model elements (nodes and edges) should have green tickmarks next to them
 7.	Click **Run Import** in the top right corner.
-8.	Once run successfully you are ready to explore AI adoption support documents!
+
+Once run successfully you are ready to explore AI adoption support documents!
 
 ## Explore
 1.  Go to the **Explore** section in your Neo4j instance
@@ -58,7 +69,7 @@ Once the instance set-up is done, you can start seacrhing for appropriate AI ado
 
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/9d83c32d-c30f-4ab0-b012-d4994ccc0b49)
 
-You are ready to start exploring! Select categories, specific nodes or relationships which you'd like to see in the search bar on the top left corner of the screen:
+You are ready to start searching! Select categories, specific nodes or relationships which you'd like to see in the search bar on the top left corner of the screen:
 
 ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/2efcf473-1133-4062-958b-1bd77501d32e)
 
@@ -97,8 +108,8 @@ _To see which support document provide guidance on overcoming limited employee c
     
     ![image](https://github.com/rasagu/SME-AI-Toolkit/assets/166431245/f9b4eb5a-add3-4712-9cf8-3d913bdd2655)
 
-    _If you're working in the desktop version_:
-    1.  Copy the _Cypher_ code from _Query_
+    _If you're working in the browser version_:
+    1.  Copy the _Cypher_ code from _Query_ folder _Sample Queries_
     2.  Paste in the top bar
     3.  Click the _Play_ button in the top right of the bar:
 
