@@ -1,3 +1,0 @@
-MATCH a=(c:Criteria)-[r:CONSIDERS]-(d:Document)
-WHERE c.Criterion='Access to financial resources' AND r.Score>=1
-RETURN a, count(d) AS docs
